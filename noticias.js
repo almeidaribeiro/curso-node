@@ -1,4 +1,3 @@
-const http = require('http')
 
 const server = http.createServer(function(req, res){
     const categoria = req.url 
